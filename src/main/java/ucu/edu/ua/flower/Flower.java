@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 //public class Flower {
 //
 //    public Flower(int i, String chamomile, int price) {
-//        //TODO Auto-generated constructor stub
+//       
 //    }
 //
 //}
@@ -42,13 +42,13 @@ public class Flower {
        // FlowerColor  red =  setFlowerColor("red");
         this.color = FlowerColor.BLUE;
         //this.color = FlowerColor();
-        //TODO Auto-generated constructor stub
+     
     }
 
 
    // private FlowerColor setFlowerColor(String string) {
    //     this.color = FlowerColor.BLUE;
-   //     // TODO Auto-generated method stub
+   //     
    //     //throw new UnsupportedOperationException("Unimplemented method 'setFlowerColor'");
    // }
 }

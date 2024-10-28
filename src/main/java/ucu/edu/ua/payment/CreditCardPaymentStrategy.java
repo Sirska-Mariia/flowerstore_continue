@@ -30,7 +30,7 @@ public class CreditCardPaymentStrategy implements Payment {
     public double pay(List<Item> items){
         double price = 0;
         for (Item item: items){
-            price += item.getPrice;
+            price += item.getPrice();
 
        // System.out.println("Paf with credic card" + price);
         }

@@ -1,5 +1,10 @@
 package ucu.edu.ua.delivery;
 
-public class Delivery {
+import java.util.List;
 
+import ucu.edu.ua.flower.Item;
+
+public interface Delivery {
+    void deliver(List<Item> items);
 }
+
